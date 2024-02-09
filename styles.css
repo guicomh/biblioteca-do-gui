@@ -6,11 +6,26 @@ background-color: #ffffff;
 color: #000;
 }
 
+
 header {
-background-color: #70ffc4;
-color:#000;
-padding: 60px;
-text-align: center;
+    background-color: #b8f7dc;
+    color: #333; 
+    padding: 40px; 
+    text-align: center;
+}
+
+.desenvolvedor-site a {    
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.github-ico {
+    background-image: url(Header/github.png);
+    text-align: center;
 }
 
 .ling-title {
@@ -69,7 +84,16 @@ text-align: center;
     background-size: cover;
     margin: 0 40px;
     text-align: center;
+}
 
+.arqui-limpa {
+   background-image: url(Img/arqlimpa.png);
+   text-align: center;
+}
+
+.eng-soft {
+    background-image: url(Img/engsoft.png);
+    text-align: center;
 }
 
 section{
