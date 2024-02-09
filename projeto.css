@@ -77,6 +77,41 @@ body {
             background-color: #333; 
             color: #fff; 
         }
+
+        .meu-projeto {
+            font-family: 'Comic Sans MS', sans-serif;
+            text-align: center;
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        @keyframes blink {
+            0% { color: red; }
+            50% { color: blue; }
+            100% { color: rgb(255, 0, 179); }
+        }
+        
+        
+        .meu-projeto {
+            animation: blink 5s infinite; 
+            border: 2px solid;
+            padding: 10px; 
+            display: inline-block;
+        }
+        
+
+        .projetos-me a {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-size: cover;
+            margin: 0 40px;
+            text-align: center;
+        
+        }
+
+
         
         footer {
         background-color: #333;

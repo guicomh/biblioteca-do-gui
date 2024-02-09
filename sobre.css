@@ -46,7 +46,7 @@ header {
     text-align: left;
 }
 
-/* Section */
+
 section {
     max-width: 1500px;
     margin: 20px auto;
@@ -81,6 +81,8 @@ section {
     background-color: #333;
     color: #fff;
 }
+
+
 
 /* Footer */
 footer {
