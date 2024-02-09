@@ -1,15 +1,15 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif ;
-    background-color: #ffffff;
-    color: #000;
-    }
+margin: 0;
+padding: 0;
+font-family: 'Oswald', sans-serif ;
+background-color: #ffffff;
+color: #000;
+}
     
-    .title-header {
-        font-size: 40px;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
-    }
+.title-header {
+    font-size: 40px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
     
     header {
         background-color: #b8f7dc;
@@ -78,9 +78,19 @@ body {
             color: #fff; 
         }
         
-        footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 10px;
-        }
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+
+     .desenvolvedor-site {
+        bottom: 10px; 
+        right: 10px; 
+    }
+    .title-header {
+        font-size: 20px;
+    }
+}
