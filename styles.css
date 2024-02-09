@@ -136,6 +136,11 @@ text-align: center;
 
 }
 
+.r-comp {
+    background-image: url(Img/redes.png);
+    text-align: center;
+}
+
 section{
 max-width: 1500px;
 margin: 20px auto;
