@@ -7,7 +7,7 @@ color: #000;
 }
 
 .title-header {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
@@ -117,6 +117,34 @@ section{
 max-width: 1500px;
 margin: 20px auto;
 padding: 20px;
+}
+
+.pagina-lista {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.pagina-lista li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.pagina-lista li:last-child {
+    margin-right: 0; /
+}
+
+.pagina-lista li a {
+    text-decoration: none; 
+    color: #333; 
+    padding: 5px 10px; 
+    border: 1px solid #333; 
+    border-radius: 5px; 
+}
+
+.pagina-lista li a:hover {
+    background-color: #333; 
+    color: #fff; 
 }
 
 footer {
