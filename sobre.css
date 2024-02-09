@@ -1,94 +1,100 @@
+/* Reset CSS */
 body {
-margin: 0;
-padding: 0;
-font-family: 'Oswald', sans-serif ;
-background-color: #ffffff;
-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffffff;
+    color: #000;
 }
-    
+
+/* Header */
+header {
+    background-color: #b8f7dc;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #333;
+}
+
 .title-header {
     font-size: 40px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-    
-    header {
-        background-color: #b8f7dc;
-        color: #333; 
-        padding: 20px; 
-        text-align: center;
-        border: 2px solid #333;
-    }
-    
-    .desenvolvedor-site {
-        position: absolute;
-        top: 10px; 
-        right: 1700px; 
-    }
-    
-    .github-ico,
-    .link-ico {
-        display: inline-block;
-        width: 40px; 
-        height: 40px; 
-        background-size: cover;
-        margin: 0 5px; 
-    }
-    
-    .github-ico {
-        background-image: url(Header/github.png);
-        text-align: left;
-    }
-    
-    .link-ico {
-        background-image: url(Header/link.png);
-        text-align: left;
-    }
 
-    section{
-        max-width: 1500px;
-        margin: 20px auto;
-        padding: 20px;
-        }
-        
-        .pagina-lista {
-            list-style-type: none; 
-            padding: 0;
-            margin: 0;
-        }
-        
-        .pagina-lista li {
-            display: inline-block; 
-            margin-right: 10px; 
-        }
-        
-        .pagina-lista li:last-child {
-            margin-right: 0; /
-        }
-        
-        .pagina-lista li a {
-            text-decoration: none; 
-            color: #333; 
-            padding: 5px 10px; 
-            border: 1px solid #333; 
-            border-radius: 5px; 
-        }
-        
-        .pagina-lista li a:hover {
-            background-color: #333; 
-            color: #fff; 
-        }
-        
-footer {
-background-color: #333;
-color: #fff;
-text-align: center;
-padding: 10px;
+.desenvolvedor-site {
+    position: absolute;
+    top: 10px;
+    right: 1700px;
 }
-@media only screen and (max-width: 768px) {
 
-     .desenvolvedor-site {
-        bottom: 10px; 
-        right: 10px; 
+.github-ico,
+.link-ico {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin: 0 5px;
+}
+
+.github-ico {
+    background-image: url(Header/github.png);
+    text-align: left;
+}
+
+.link-ico {
+    background-image: url(Header/link.png);
+    text-align: left;
+}
+
+/* Section */
+section {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+.pagina-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pagina-lista li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pagina-lista li:last-child {
+    margin-right: 0;
+}
+
+.pagina-lista li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.pagina-lista li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    .desenvolvedor-site {
+        bottom: 10px;
+        right: 10px;
     }
     .title-header {
         font-size: 20px;
