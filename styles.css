@@ -114,6 +114,16 @@ text-align: center;
     text-align: center;
 }
 
+.cod-limpo {
+    background-image: url(Img/codigolimpo.png);
+    text-align: center;
+}
+
+.comp-nuvem {
+    background-image: url(Img/compnuvem.png);
+    text-align: center;
+}
+
 .redes-title {
     font-family: 'Arial', sans-serif;
     text-align: center;
