@@ -16,7 +16,8 @@ https://bibliotecadogui.netlify.app/
 
 ## Desenvolvedor
 
-Este projeto foi desenvolvido por [Gui](https://github.com/guicomh). Você pode encontrar mais informações sobre o desenvolvedor no [LinkedIn](https://www.linkedin.com/in/guicomh/).
+Este projeto foi desenvolvido por [Gui](https://github.com/guicomh). 
+Você pode encontrar mais informações sobre o desenvolvedor no [LinkedIn](https://www.linkedin.com/in/guicomh/).
 
 ## Licença
 
